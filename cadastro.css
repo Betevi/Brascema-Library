@@ -217,24 +217,6 @@ h2 {
     background: rgba(255, 255, 255, 0.7);
 }
 
-.registrar {
-    font-size: 0.9rem;
-    color: white;
-    text-align: center;
-    margin: 25px 0 10px;
-}
-
-.registrar p a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-}
-
-.registrar p a:hover {
-    text-decoration: underline;
-}
-
-
 @media (max-width: 768px) {
     .cadastro-container {
         padding: 1.5rem;
