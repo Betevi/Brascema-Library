@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Brascema</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="cadastro.css" rel="stylesheet" type="text/css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+          <nav>
+              <a href="index.html" class="logo">
+                  <img src="img/logotipo.png" alt="Brascema logo">
+                  Brascema
+              </a>
+              <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+ 
+ <video autoplay muted loop playsinline class="video-background">
+  <source src="img/dadasadsa.mp4" type="video/mp4">
+  
+  
+</video>
+  <main class="main-wrapper">
+    <div class="section">
+      <div class="container-medium">
+        <div class="padding-vertical">
+          <div class="max-width-large">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-section vertical-section section">
+      <div class="wrapper"> 
+        <div role="list" class="list">
+          <div role="listitem" class="item">
+            <div class="item_content"> 
+              <img class="logoB" src="img/Sign up-bro.png" alt="imgLogin">
+              <h2>Cadastre-se na Brascema</h2>
+              <p class="item_p">
+                Junte-se à nossa comunidade literária
+                Preencha os campos abaixo para criar sua conta e 
+                comece sua jornada na maior plataforma de autores independentes do Brasil.
+              </p>
+            </div>
+            <video
+              src="img/dadada.mp4"
+              loading="lazy"
+              autoplay
+              muted
+              loop
+              class="item_media">
+            </video>
+          </div>
+
+      <div class="scroll-section vertical-section section">
+        <div class="wrapper"> 
+          <div role="list" class="list">
+            <div role="listitem" class="item">
+              <div class="item_content"> 
+                <img class="logoB" src="img/Login-bro.png" alt="imgLogin">
+                <h2>Entre na sua conta</h2>
+                <p class="item_p">
+                    A Brascema nasceu com um propósito claro: valorizar a literatura nacional e dar voz a escritores independentes. <br>
+                    Em um mercado editorial muitas vezes dominado por grandes publicações, muitos autores talentosos lutam para encontrar espaço para suas obras. <br>
+                    É aí que entramos criando uma plataforma onde escritores podem publicar, divulgar e vender seus livros, enquanto leitores descobrem histórias únicas e autênticas.
+                </p>
+              </div>
+              <video
+                src=""
+                loading="lazy"
+                autoplay
+                muted
+                loop
+                class="item_media">
+              </video>
+            </div>
+            
+            <div role="listitem" class="item">
+              <div class="item_content_2">
+                <img src="img/green-forest-with-moss-covered-rocks-in-a-river-picjumbo-com.jpg" alt="Background" class="item_content_2_bg">
+                <section class="cadastro-section">
+                  <div class="cadastro-container">
+                    <form action="banco_dados/cadastro.php" method="post" class="cadastro-form">
+                      <h2>Cadastro</h2>
+                      <div class="inputbox">
+                        <ion-icon name="nomeuser"></ion-icon>
+                        <input type="text" name='nomeuser' required>
+                        <label>Nome</label>
+                      </div>
+                      <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" name='emailuser' required>
+                        <label>Email</label>
+                      </div>
+                      <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="passuser" id="input-pass" max="15" required>
+                        <label>Senha</label>
+                      </div>
+                      <button type="submit" class="form-btn">Cadastrar-se</button>
+                    </form>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
